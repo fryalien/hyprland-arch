@@ -23,6 +23,5 @@ echo
 tput setaf 6
 echo "#INSTALL PANEL - HYPRPANEL"
 echo "#LINK: https://hyprpanel.com/getting_started/installation.html"
-
 ./hyprpanel.sh | tee -a "$log_file"
 
