@@ -14,20 +14,10 @@ configuration{
     sidebar-mode: true;
 }
 
-listview {
-    columns: 1;
-    lines: 7;
-    fixed-height: true;
-    fixed-columns: true;
-    cycle: false;
-    scrollbar: false;
-    border: 0px solid;
-}
-
 window {
-    width: 500px;
-    border-radius: 8px solid;
+    width: 8 00px;
+    border-radius: 8px;
+    border-color: #1e1e2e;
 }
 
 @theme "catppuccin-mocha"
-
