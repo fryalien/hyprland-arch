@@ -14,5 +14,11 @@ configuration{
     sidebar-mode: true;
 }
 
+window {
+    transparency: "real";
+    width: 500px;
+    border-radius: 8px;
+}
+
 @theme "catppuccin-mocha"
 
