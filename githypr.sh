@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd Downloads
+cd ~/Downloads
 
 rm -rf hyprland-git
 
