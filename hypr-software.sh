@@ -12,7 +12,6 @@ sudo pacman -S --noconfirm --needed xdg-desktop-portal-hyprland
 sudo pacman -S --noconfirm --needed rofi-wayland
 
 sudo pacman -S --noconfirm --needed hyprpaper
-sudo pacman -S --noconfirm --needed hyprshot
 sudo pacman -S --noconfirm --needed hyprlock
 sudo pacman -S --noconfirm --needed hypridle
 
@@ -34,12 +33,13 @@ sudo pacman -S --noconfirm --needed kwrite
 sudo pacman -S --noconfirm --needed kate
 
 # THEMES
-sudo pacman -S breeze-gtk
-sudo pacman -S arc-gtk-theme
+sudo pacman -S --noconfirm --needed breeze-gtk
+sudo pacman -S --noconfirm --needed arc-gtk-theme
 
 # INSTALL PACKAGES WITH PARU
 paru -S --noconfirm --needed vscodium-bin
 paru -S --noconfirm --needed librewolf-bin
 paru -S --noconfirm --needed catppuccin-gtk-theme-mocha
-paru -S --noconfirm --needed kvantum-qt6-git
+paru -S --noconfirm --needed kvantum
 paru -S --noconfirm --needed hyprpolkitagent
+paru -S --noconfirm --needed hyprshot
