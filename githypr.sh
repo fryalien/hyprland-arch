@@ -2,6 +2,6 @@
 
 cd ~/Downloads
 
-rm -rf hyprland-git
+rm -rf hyprland-arch
 
 git clone https://github.com/fryalien/hyprland-arch
