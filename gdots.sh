@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd Downloads
+cd ~
 
 rm -rf dotfiles
 
