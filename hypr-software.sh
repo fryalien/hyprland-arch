@@ -21,7 +21,6 @@ sudo pacman -S --noconfirm --needed waybar
 sudo pacman -S --noconfirm --needed qt6-wayland
 sudo pacman -S --noconfirm --needed qt5-wayland
 sudo pacman -S --noconfirm --needed qt5ct
-sudo pacman -S --noconfirm --needed kvantum
 sudo pacman -S --noconfirm --needed nwg-look
 sudo pacman -S --noconfirm --needed kvantum
 
