@@ -21,8 +21,8 @@ sudo pacman -S --noconfirm --needed waybar
 
 sudo pacman -S --noconfirm --needed qt6-wayland
 sudo pacman -S --noconfirm --needed qt5-wayland
-sudo pacman -S --noconfirm --needed qt6ct
 sudo pacman -S --noconfirm --needed qt5ct
+sudo pacman -S --noconfirm --needed kvantum
 sudo pacman -S --noconfirm --needed nwg-look
 
 # KDE stuff
@@ -40,4 +40,4 @@ sudo pacman -S arc-gtk-theme
 paru -S --noconfirm --needed vscodium-bin
 paru -S --noconfirm --needed librewolf-bin
 paru -S --noconfirm --needed catppuccin-gtk-theme-mocha
-paru -S --noconfirm --needed kvantum-qt6-git
+paru -S --noconfirm --needed qt6ct
