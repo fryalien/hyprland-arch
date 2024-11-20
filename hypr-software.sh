@@ -1,5 +1,4 @@
 # INSTALL PACKAGES
-sudo pacman -S --noconfirm --needed paru
 sudo pacman -S --noconfirm --needed micro
 sudo pacman -S --noconfirm --needed kitty
 sudo pacman -S --noconfirm --needed thunar
@@ -17,6 +16,9 @@ sudo pacman -S --noconfirm --needed hypridle
 
 sudo pacman -S --noconfirm --needed ttf-font-awesome
 sudo pacman -S --noconfirm --needed waybar
+sudo pacman -S --noconfirm --needed wlogout
+sudo pacman -S --noconfirm --needed pamixer
+sudo pacman -S --noconfirm --needed pavucontrol
 
 sudo pacman -S --noconfirm --needed qt6-wayland
 sudo pacman -S --noconfirm --needed qt5-wayland
@@ -37,6 +39,8 @@ sudo pacman -S --noconfirm --needed breeze-gtk
 sudo pacman -S --noconfirm --needed arc-gtk-theme
 
 # INSTALL PACKAGES WITH PARU
+yay -S --noconfirm --needed paru
+paru -S --noconfirm --needed yay
 paru -S --noconfirm --needed vscodium-bin
 paru -S --noconfirm --needed librewolf-bin
 paru -S --noconfirm --needed catppuccin-gtk-theme-mocha
