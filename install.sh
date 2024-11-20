@@ -5,8 +5,13 @@ user="y" # CHANGE THIS TO YOUR USER
 
 echo
 tput setaf 6
-echo "# INSTALL SOFTWARE"
+echo "# INSTALL HYPR SOFTWARE"
 ./hypr-software.sh | tee -a "$log_file"
+
+echo
+tput setaf 6
+echo "# INSTALL SOFTWARE"
+./software.sh | tee -a "$log_file"
 
 echo
 tput setaf 6
