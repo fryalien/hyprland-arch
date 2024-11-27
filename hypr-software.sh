@@ -1,10 +1,8 @@
 # INSTALL PACKAGES
 sudo pacman -S --noconfirm --needed micro
 sudo pacman -S --noconfirm --needed kitty
-sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed qbittorrent
-sudo pacman -S --noconfirm --needed p7zip
 sudo pacman -S --noconfirm --needed cantarell-fonts
 
 sudo pacman -S --noconfirm --needed hyprland
