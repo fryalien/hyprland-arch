@@ -1,17 +1,15 @@
-#!/bin/bash
+#cp -R ~/hyprland-dots/fish ~/.config/fish
 
-cp -R ~/nix/dots/fish ~/.config/fish
+cp -R ~/hyprland-dots/foot ~/.config/foot
 
-cp -R ~/nix/dots/foot ~/.config/foot
+cp -R ~/hyprland-dots/hypr ~/.config/hypr
 
-cp -R ~/nix/dots/hypr ~/.config/hypr
+cp -R ~/hyprland-dots/kitty ~/.config/kitty
 
-cp -R ~/nix/dots/kitty ~/.config/kitty
+cp -R ~/hyprland-dots/konsole ~/.config/konsole
 
-cp -R ~/nix/dots/konsole ~/.config/konsole
+cp -R ~/hyprland-dots/rofi ~/.config/rofi
 
-cp -R ~/nix/dots/rofi ~/.config/rofi
+cp -R ~/hyprland-dots/waybar ~/.config/waybar
 
-cp -R ~/nix/dots/waybar ~/.config/waybar
-
-cp -R ~/nix/dots/doplphinrc ~/.config/
+cp -R ~/hyprland-dots/doplphinrc ~/.config/

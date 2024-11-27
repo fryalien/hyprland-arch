@@ -30,3 +30,8 @@ echo "#INSTALL PANEL - HYPRPANEL"
 echo "#LINK: https://hyprpanel.com/getting_started/installation.html"
 ./hyprpanel.sh | tee -a "$log_file"
 
+echo
+tput setaf 6
+echo "# COPY HYPRLAND DOTS"
+git clone https://github.com/fryalien/hyprland-dots
+./copy-dots.sh
