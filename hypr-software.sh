@@ -1,10 +1,4 @@
 # INSTALL PACKAGES
-sudo pacman -S --noconfirm --needed micro
-sudo pacman -S --noconfirm --needed kitty
-sudo pacman -S --noconfirm --needed fish
-sudo pacman -S --noconfirm --needed qbittorrent
-sudo pacman -S --noconfirm --needed cantarell-fonts
-
 sudo pacman -S --noconfirm --needed hyprland
 sudo pacman -S --noconfirm --needed xdg-desktop-portal-hyprland
 sudo pacman -S --noconfirm --needed rofi-wayland

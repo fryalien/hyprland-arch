@@ -41,5 +41,4 @@ sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 
-
 sudo pacman -S --noconfirm --needed cantarell-fonts
