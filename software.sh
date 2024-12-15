@@ -18,6 +18,8 @@ sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed rate-mirrors-bin
 sudo pacman -S --noconfirm --needed ripgrep
 sudo pacman -S --noconfirm --needed rsync
+sudo pacman -S --noconfirm --needed meld
+sudo pacman -S --noconfirm --needed vlc
 
 sudo pacman -S --noconfirm --needed vivaldi
 sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
@@ -25,7 +27,7 @@ sudo pacman -S --noconfirm --needed vivaldi-widevine
 
 paru -S --noconfirm --needed megasync-bin
 paru -S --noconfirm --needed github-desktop-bin
-paru -S --noconfirm --needed syncthingtray
+paru -S --noconfirm --needed syncthing-gtk
 paru -S --noconfirm --needed spotify
 paru -S --noconfirm --needed rustdesk-bin
 paru -S --noconfirm --needed freetube-bin
